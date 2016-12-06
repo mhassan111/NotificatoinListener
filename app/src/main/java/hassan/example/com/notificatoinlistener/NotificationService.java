@@ -38,6 +38,7 @@ public class NotificationService extends NotificationListenerService {
                     String text = extras.getCharSequence("android.text").toString();
 
                     Log.d("text ","android");
+                    Log.d("dsaf","sdf");
                     String extaText = "";
                     Notification notification = sbn.getNotification();
                     int i = 0;
