@@ -37,6 +37,7 @@ public class NotificationService extends NotificationListenerService {
                     String title = extras.getString("android.title");
                     String text = extras.getCharSequence("android.text").toString();
 
+                    Log.d("text ","android");
                     String extaText = "";
                     Notification notification = sbn.getNotification();
                     int i = 0;
